@@ -27,6 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 to run the cron please use ``/api/v1/cron`` , it will running each of 30 minutes.
 
 ## ENDPOINTS
-``/api/v1/dns`` with `method` `POST` to upload list of domains in csv format with field ``file``
-``/api/v1/validate`` with `method` `GET` to get all list of inputted list of domains
-``/api/v1/validate`` with `method` `POST` to check single string domain, it requires form data with field ``domain``
+``/api/v1/dns`` with `method` `POST` to upload list of domains in csv format with field ``file``__
+``/api/v1/validate`` with `method` `GET` to get all list of inputted list of domains__
+``/api/v1/validate`` with `method` `POST` to check single string domain, it requires form data with field ``domain``__
