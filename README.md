@@ -43,4 +43,7 @@ change the init as you want
 
 
 ## CRON
-to run the cron please use ``/api/v1/cron``
+to run the cron please use ``/api/v1/cron`` , it will running each of 30 minutes.
+
+## ENDPOINTS
+i create ``/api/v1/dns`` with `method` `POST` to upload list of domains in csv format
