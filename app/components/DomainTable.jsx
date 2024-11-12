@@ -108,7 +108,7 @@ function DomainTable() {
               <td className="border p-2">{entry.spf ? "Valid" : "Invalid"}</td>
               <td className="border p-2">{entry.dkim ? "Valid" : "Invalid"}</td>
               <td className="border p-2">{entry.dmarc ? "Valid" : "Invalid"}</td>
-              <td className="border p-2">{new Date(entry.updated_at).toLocaleString()}</td>
+              <td className="border p-2">{new Date(entry.updatedAt).toLocaleString()}</td>
             </tr>
           ))}
         </tbody>
