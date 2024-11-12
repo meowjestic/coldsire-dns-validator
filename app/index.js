@@ -1,4 +1,4 @@
-import DomainTable from './components/DomainTable';
+import DomainTable from '../components/DomainTable';
 
 export default function Home() {
   return (
